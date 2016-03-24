@@ -277,7 +277,7 @@
 
     function scoreCard() {
         window.setTimeout(function () {
-            document.getElementById('scoreBoard').innerHTML = (players[1].body.length - 1) + ' ' + (players[0].body.length - 1);
+            document.getElementById('scoreBoard').innerHTML = (players[1].score) + ' ' + (players[0].score);
             banner.style.display = 'block';
         }, 500);
     }
